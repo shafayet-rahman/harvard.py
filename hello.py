@@ -1,3 +1,4 @@
+#use extension easter bunny to study code better
 '''name = input("what's your name?").strip().title();#asking user for their name and saving it in a variable named "name"
 print(f"hello, {name}");'''#the user input print statement 
 #sahira pocha
@@ -25,3 +26,7 @@ print(f"{z:.4f}")'''#specifies how many digits you want to print after the dot
 '''def main():
     print("hell yea")
 main()'''#this is the function syntax and you algo gotta indent stuff like this lmdo or it won't work
+#python also has the scope thingy as same as vscode
+#return shit to exit functions
+#-----------------------------------------------------------
+print("im cooked")
