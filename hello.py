@@ -29,4 +29,57 @@ main()'''#this is the function syntax and you algo gotta indent stuff like this 
 #python also has the scope thingy as same as vscode
 #return shit to exit functions
 #-----------------------------------------------------------
-print("im cooked")
+# If statement - Executes a block of code if a specified condition is True
+# Basic syntax: if condition: code_block
+#x = 5
+#if x > 0:
+#    print("x is positive")
+
+# Elif (else if) statement - Checks another condition if previous conditions were False
+# Used between if and else to check multiple conditions
+# Basic syntax: elif condition: code_block
+#score = 85
+#if score >= 90:
+#    print("Grade: A")
+#elif score >= 80:
+#    print("Grade: B")
+#elif score >= 70:
+#    print("Grade: C")
+
+# Else statement - Executes when all previous conditions are False
+# Provides a default case when no conditions are met
+# Basic syntax: else: code_block
+#age = 15
+#if age >= 18:
+#    print("You can vote")
+#else:
+#    print("Too young to vote")
+
+# Match statement (Python 3.10+) - Similar to switch/case in other languages
+# Compares a value against multiple patterns
+# Basic syntax: match value: case pattern: code_block
+#status = "error"
+#match status:
+#    case "success":
+#        print("Operation completed successfully")
+#    case "error":
+#        print("An error occurred")
+#    case "pending":
+#        print("Operation in progress")
+#    case _:  # Default case (like else)
+#        print("Unknown status")
+
+# Complex if-elif-else with multiple conditions
+# Demonstrates using logical operators (and, or, not)
+#temperature = 25
+#humidity = 60
+
+#if temperature > 30 and humidity > 70:
+#    print("Hot and humid")
+#elif temperature > 30 and humidity <= 70:
+#    print("Hot but dry")
+#elif temperature <= 30 and humidity > 70:
+#    print("Cool but humid")
+#else:
+#    print("Pleasant weather")
+----------------------------------------------------------------------
