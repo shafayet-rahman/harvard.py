@@ -7,3 +7,10 @@ print(f"hello, {name}");'''#the user input print statement
 print("gugugaga ", end ="")
 print("sahiru") #this will print everything in a single line of code
 '''
+#python string methods are pretty cool - lower(),upper(),title(),strip(),replace(),etc
+
+#split users name into two variables
+name = input("whatcha name lil vru? ")
+first, last = name.split(" ")
+print(first)
+print("Oh wait forgot your last name lil vru lemme cook" "\n" + last)
