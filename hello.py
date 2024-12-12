@@ -82,4 +82,19 @@ main()'''#this is the function syntax and you algo gotta indent stuff like this 
 #    print("Cool but humid")
 #else:
 #    print("Pleasant weather")
+# Pythonic expressions - Simple examples of Python's elegant syntax
+
+# List comprehension
+#numbers = [1, 2, 3, 4, 5]
+#squares = [x * x for x in numbers]
+#print(squares)  # [1, 4, 9, 16, 25]
+
+# Ternary operator
+#age = 20
+#status = "adult" if age >= 18 else "minor"
+#print(status)
+
+# Multiple assignment
+#a, b = 1, 2
+#print(a, b)  # 1 2
 ----------------------------------------------------------------------
