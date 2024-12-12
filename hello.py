@@ -17,4 +17,8 @@ print(first)
 print("Oh wait forgot your last name lil vru lemme cook" "\n" + last)'''
 #type conversion any input taken from the user comes as text even numbers u have to use int to convert it into num first
 '''z = 1000000
-print(f"{z:,}")'''#numeric formatting syntax
+print(f"{z:,}")'''#numeric formatting syntax,adds comma after every 3 0
+x = int(input("what's x? "))
+y = int(input("what's y? "))
+z = x / y
+print(f"{z:.4f}");#specifies how many digits you want to print after the dot
